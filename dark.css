@@ -170,8 +170,6 @@
   /* For mobile phones: */
    #about p{
 	font-size: 1.25rem;
-	opacity: 0;
-	transition: opacity 2s ease-out;
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
@@ -186,9 +184,5 @@
 
    #about:hover .my-pic{
 	transform: scale(1.1);
-	}
-	#about:hover p{
-		opacity: 1;
-		transform: none;
 	}
 }
