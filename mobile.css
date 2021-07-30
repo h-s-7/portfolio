@@ -22,7 +22,7 @@ body{
 	text-align: center;
 	position: absolute;
 	top: 40%;
-	left:60%;
+	left:40%;
 	animation-name: fade;
 	animation-duration: 2s;
 	animation-timing-function: ease-out;
@@ -34,7 +34,7 @@ body{
 	}
 	100%{
 		opacity: 1;
-		transform: scale(1.5);
+		transform: scale(1.05);
 	}
 }
 
@@ -46,26 +46,21 @@ body{
 	padding-bottom: 3%;
 }	
 .heading{
-	font-size: 4rem;
+	font-size: 3rem;
 	text-align: center;
 	padding-bottom: 2%;
 }
 #about p{
-	font-size: 1.5rem;
-	transition: transform 2s ease-out;
+	font-size: 1rem;
 }
 .my-pic{
 	width: 60%;
 	border: solid 7px black;
-	box-shadow: 0 20px 20px 20px rgba(0,0,0,0.25);
-	transition: transform 2s ease-out;
+	transition: box-shadow 1s ease-out;
 	
 }
 #about:hover .my-pic{
-	transform: translateX(2.5rem);
-}
-#about:hover p{
-	transform: translateX(-2.5rem);
+	box-shadow: 0 10px 10px 10px rgba(0,0,0,0.15);
 }
 
 #projects{
@@ -100,6 +95,7 @@ body{
 	color: #EDEDED;
 	opacity: 0;
 	transition: opacity 1s ease-out;
+	font-size: 0.7rem;
 }
 #work-1:hover .img-desc , #work-2:hover .img-desc,#work-3:hover .img-desc{
 	opacity: 1;
@@ -118,7 +114,7 @@ body{
 }
 .progress-bar{
 	background-color:#DA0037;
-	font-size: 1.25rem;
+	font-size: 0.8rem;
 }
 #academics{
 	padding-left: 5%;
@@ -142,7 +138,7 @@ body{
 	color: #2B2B2B !important;
 }
 .message-button{
-	width: 25%;
+	width: 50%;
 }
 .message-button a{
 	color: #EDEDED !important;
